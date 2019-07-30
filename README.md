@@ -14,9 +14,9 @@
   ### Screenshots
   ![](screenshots/init_app.png)
   ![](screenshots/addNewTodo.png)
-  ![](screenshots/seeTodoOnScreen.png)
   ![](screenshots/updateNewTodo.png)
-  
+  ![](screenshots/seeTodoOnScreen.png)
+
   ### Screenshots from Postman Server Tests
   ![](screenshots/getTodos.png)
   ![](screenshots/testGetOneTodo.png)
