@@ -9,7 +9,18 @@
   
   ### Other useful technologies
   + Postman
-  + npm
+  + Create React App shown below
+  
+  ### Screenshots
+  ![](screenshots/init_app.png)
+  ![](screenshots/addNewTodo.png)
+  ![](screenshots/seeTodoOnScreen.png)
+  ![](screenshots/updateNewTodo.png)
+  
+  ### Screenshots from Postman Server Tests
+  ![](screenshots/getTodos.png)
+  ![](screenshots/testGetOneTodo.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
