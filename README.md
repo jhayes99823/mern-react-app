@@ -1,3 +1,16 @@
+
+# Todo Application To Explore a Fullstack Application
+
+ ### Tech Stack
+  + MongoDB
+  + Express.js
+  + ReactJS
+  + Node.js
+  
+  ### Other useful technologies
+  + Postman
+  + npm
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
