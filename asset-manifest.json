@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mern-react-app/static/css/main.5231334a.chunk.css",
+    "main.js": "/mern-react-app/static/js/main.61044126.chunk.js",
+    "main.js.map": "/mern-react-app/static/js/main.61044126.chunk.js.map",
+    "runtime~main.js": "/mern-react-app/static/js/runtime~main.52d22086.js",
+    "runtime~main.js.map": "/mern-react-app/static/js/runtime~main.52d22086.js.map",
+    "static/css/2.266e55a5.chunk.css": "/mern-react-app/static/css/2.266e55a5.chunk.css",
+    "static/js/2.4310f214.chunk.js": "/mern-react-app/static/js/2.4310f214.chunk.js",
+    "static/js/2.4310f214.chunk.js.map": "/mern-react-app/static/js/2.4310f214.chunk.js.map",
+    "index.html": "/mern-react-app/index.html",
+    "precache-manifest.75fdcb7bfdcf6d66aabb6b940ecb9eed.js": "/mern-react-app/precache-manifest.75fdcb7bfdcf6d66aabb6b940ecb9eed.js",
+    "service-worker.js": "/mern-react-app/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/mern-react-app/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.5231334a.chunk.css.map": "/mern-react-app/static/css/main.5231334a.chunk.css.map"
+  }
+}
