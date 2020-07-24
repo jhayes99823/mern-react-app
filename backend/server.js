@@ -12,6 +12,7 @@ let Todo = require("./todo.model");
 
 app.use(cors());
 app.use(bodyParser.json());
+
 const MONGOD_URL =
   process.env.MONGO_PROD_URL || "mongodb://localhost:27017/local_todo";
 
