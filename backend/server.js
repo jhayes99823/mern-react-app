@@ -25,8 +25,8 @@ connection.once("open", function () {
 
 app.use(serveStatic(path.join(__dirname, "../build")));
 
-todoRoutes.get("/*", (req, res) => {
-  res.sendFile(path.join(__direname, "../build", index.html));
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "../build", "index.html"));
 });
 
 todoRoutes.route("/").get(function (req, res) {
@@ -75,6 +75,16 @@ todoRoutes.route("/update/:id").post(function (req, res) {
       .catch((err) => {
         res.status(400).send("Update not possible");
       });
+  });
+});
+
+todoRoutes.route("/").delete((req, res) => {
+  Todo.deleteOne({ _id: req.query.id }, (err) => {
+    if (err) {
+      res.status(400).send("Todo not deleted");
+    }
+
+    res.json("Todo deleted");
   });
 });
 
