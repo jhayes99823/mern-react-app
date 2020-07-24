@@ -1,5 +1,5 @@
 
-# Todo Application To Explore a Fullstack Application
+# Fullstack Todo Application Project
 
 # Deployed At - https://jordanstodotracker.herokuapp.com/
 
