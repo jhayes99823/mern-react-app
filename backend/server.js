@@ -4,16 +4,18 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const todoRoutes = express.Router();
-import serveStatic from "serve-static";
-import path from "path";
+const serveStatic = require("serve-static");
+const path = require("path");
 const PORT = process.env.PORT || 4000;
 
 let Todo = require("./todo.model");
 
 app.use(cors());
 app.use(bodyParser.json());
+const MONGOD_URL =
+  process.env.MONGO_PROD_URL || "mongodb://localhost:27017/local_todo";
 
-mongoose.connect(process.env.MONGO_PROD_URL, { useNewUrlParser: true });
+mongoose.connect(MONGOD_URL, { useNewUrlParser: true });
 const connection = mongoose.connection;
 
 connection.once("open", function () {
